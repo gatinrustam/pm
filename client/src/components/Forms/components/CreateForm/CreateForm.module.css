@@ -1,0 +1,73 @@
+.create {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 16px;
+    position: relative;
+}
+
+.createSpan {
+    position: absolute;
+    top: calc(-0.5em - 2px);
+    left: 1em;
+    background: #ffffff;
+    font-size: 12px;
+    padding: 0 8px;
+    border-radius: 4px;
+    border: 2px dashed #e1e4e8;
+    color: #56687a;
+}
+
+.canvas {
+    width: 50%;
+    padding: 12px;
+    border-radius: 16px;
+    border: 2px dashed #e1e4e8;
+}
+
+.property {
+    width: 50%;
+    min-height: 250px;
+    padding: 24px;
+    border-radius: 12px;
+    background: #f9fafc;
+}
+
+.propertyTitle {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #56687a;
+}
+
+.control {
+    margin-bottom: 16px;
+    display: flex;
+    grid-gap: 8px;
+}
+
+.rightButton {
+    margin-left: auto;
+}
+
+.createLabel {
+    padding: 12px 16px 12px 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    color: #56687a;
+    background: #f9fafc;
+    border: 2px dashed transparent;
+}
+
+.createLabel:active {
+    border: 2px dashed #e1e4e8;
+}
+
+.createLabelActive {
+    border: 2px solid #e1e4e8;
+}
+
+.icon {
+    margin-right: 8px;
+}
+

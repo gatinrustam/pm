@@ -1,0 +1,14 @@
+.empty {
+    padding: 150px 0;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    color: #56687a;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}

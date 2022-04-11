@@ -1,0 +1,23 @@
+.element {
+    color: red;
+}
+.createLabel {
+    padding: 12px 16px 12px 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    color: #56687a;
+    background: #f9fafc;
+    border: 2px dashed transparent;
+}
+
+.createLabel:active {
+    border: 2px dashed #e1e4e8;
+}
+
+.createLabelActive {
+    border: 2px solid #e1e4e8;
+}
+
+.icon {
+    margin-right: 8px;
+}

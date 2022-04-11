@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>24</title>
+    <g id="24" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="18.4975364" y1="17.0419958" x2="14.0357492" y2="21.4993298" id="Line" stroke="#2A2F35" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M17,3.5 C17.4142136,3.5 17.7892136,3.66789322 18.0606602,3.93933983 C18.3321068,4.21078644 18.5,4.58578644 18.5,5 L18.5,5 L18.5,16.4642868 L13.5133295,16.4642868 L13.5133295,21.5 L7,21.5 C6.58578644,21.5 6.21078644,21.3321068 5.93933983,21.0606602 C5.66789322,20.7892136 5.5,20.4142136 5.5,20 L5.5,20 L5.5,5 C5.5,4.58578644 5.66789322,4.21078644 5.93933983,3.93933983 C6.21078644,3.66789322 6.58578644,3.5 7,3.5 L7,3.5 Z" id="Rectangle" stroke="#2A2F35"></path>
+        <line x1="16.5" y1="9.5" x2="7.5" y2="9.5" id="Line-2" stroke="#2A2F35" stroke-linecap="square"></line>
+        <line x1="11.5" y1="6.5" x2="7.5" y2="6.5" id="Line-2" stroke="#2A2F35" stroke-linecap="square"></line>
+        <line x1="16.5" y1="12.5" x2="7.5" y2="12.5" id="Line-2" stroke="#2A2F35" stroke-linecap="square"></line>
+    </g>
+</svg>

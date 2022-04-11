@@ -1,0 +1,63 @@
+.menu {
+    width: 100%;
+    max-width: 232px;
+    height: 100vh;
+    padding: 16px 0;
+    box-shadow: 5px 0 15px -10px #ebeef3;
+    transition: box-shadow 300ms ease-in-out;
+}
+.menu:hover {
+    box-shadow: 5px 0 15px 10px #ebeef3;
+}
+
+.menuLogo {
+    margin: 4px auto 12px;
+    max-width: 200px;
+    display: block;
+}
+.menuLogo img {
+    width: 100%;
+    display: block;
+}
+
+.menuList {
+    display: flex;
+    grid-gap: 4px;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.menuItem {
+    list-style: none;
+}
+
+.menuItem a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #56687a;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.menuItem a:hover {
+    background: #ECF1F7;
+    border: 2px solid #ECF1F7;
+}
+
+.menuItem a:active {
+    border: 2px solid #E4EBF3;
+    background: #E4EBF3;
+}
+
+.menuLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemTitle {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 4px;
+}

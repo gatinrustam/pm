@@ -1,0 +1,76 @@
+.form {
+    border-bottom: 1px dotted #e7ecf1;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+}
+
+.form:hover {
+    background: #f9fafc;
+}
+
+.form:first-child {
+    border-radius: 12px 12px 0 0;
+}
+.form:last-child {
+    border-bottom: none;
+    border-radius: 0 0 12px 12px;
+}
+
+.gist {
+    display: flex;
+    align-content: center;
+    padding: 12px 16px;
+}
+
+.order {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 12px;
+    color: #b0bac9;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.id {
+    width: 100%;
+    max-width: 150px;
+    margin-right: 12px;
+    font-style: italic;
+    font-size: 12px;
+    color: #b0bac9;
+    display: flex;
+    align-items: center;
+}
+
+.createdAt {
+    width: 100%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    transition: transform 300ms ease-in-out;
+    transform: rotate(0deg);
+}
+
+.arrowRotate {
+    transform: rotate(-180deg);
+}
+
+.details {
+    border-top: 1px dotted #e7ecf1;
+    padding: 12px 16px;
+}

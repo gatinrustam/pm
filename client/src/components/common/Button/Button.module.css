@@ -1,0 +1,124 @@
+.buttonWrap {
+    display: flex;
+    position: relative;
+}
+
+.button {
+    font-size: 16px;
+    color: #2A2F35;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    transition: background 300ms ease-in-out;
+    text-decoration: none;
+}
+
+.default {
+    padding: 0 36px 2px;
+    background-color: #ECF1F7;
+    /* border: 2px solid #ECF1F7; */
+}
+.default:hover {
+    padding: 0 36px 2px;
+    background-color: #E4EBF3;
+    /* border: 2px solid #E4EBF3; */
+}
+
+/* borders */
+.outline {
+    background-color: unset;
+    border: 2px solid #ECF1F7;
+}
+
+.transparent {
+    background-color: unset;
+    border: none;
+    text-decoration: none;
+}
+.transparent:hover {
+    background-color: unset;
+    border: none;
+    text-decoration: none;
+}
+
+/* sizes */
+.small {
+    height: 40px;
+    padding: 0 8px 2px;
+}
+.small:hover {
+    padding: 0 8px 2px;
+}
+
+.wide {
+    width: 100%;
+}
+
+/* colors */
+.green {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #ffffff;
+}
+
+.green:hover {
+    background-color: #3d9342;
+    border-color: #3d9342;
+}
+
+.image {
+    margin-left: 4px;
+}
+
+
+
+.loading {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+}
+.loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin: 1px;
+    border: 2px solid #2A2F35;
+    border-radius: 50%;
+    animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #2A2F35 transparent transparent transparent;
+}
+.loading div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.loading div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.loading div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+.button:disabled,
+.button[disabled] {
+    background-color: #e7eaef;
+    color: #cfcfcf;
+    cursor: not-allowed;
+}
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}

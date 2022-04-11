@@ -1,0 +1,52 @@
+.instructions {
+    background: #f9fafc;
+    padding: 18px 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.instruction {
+    margin-right: 24px;
+    /* margin-bottom: 24px; */
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #56687a;
+}
+
+.desc {
+    color: #56687a;
+    line-height: 22px;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.navigateDot {
+    width: 8px;
+    height: 8px;
+    background: #56687a;
+    border-radius: 24px;
+}
+.notActive {
+    width: 8px;
+    height: 8px;
+    background: #e2e4e9;
+    border-radius: 24px;
+}
+
+.close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}

@@ -1,0 +1,22 @@
+.formList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .createForm {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .createFormHeader {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    .formDescription {
+        color: #56687a;
+        line-height: 22px;
+    }
+}
