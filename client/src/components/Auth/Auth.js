@@ -3,14 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 import { Path } from "../../common/js/consts";
 import { useHttp } from '../../hooks/http.hook';
-
 import Button from '../common/Button/Button';
 import LanguageSelector from '../common/LanguageSelector/LanguageSelector';
-import Input from '../common/Input/Input';
 
-import s from './Auth.module.css';
+import Input from '../common/Input/Input';
 import ReactLogo from '../../img/logo.svg';
 import SupportHeadphone from '../../img/icons/support-headphone.svg';
+
+import s from './Auth.module.css';
 
 export default function Auth({ type }){
     const { t } = useTranslation();

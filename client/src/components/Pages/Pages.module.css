@@ -6,3 +6,120 @@
     margin: 0 16px;
     border-radius: 16px;
 }
+
+/* .columns {
+    display: flex;
+} */
+
+.mailTools {
+    height: 60px;
+    background: #f9fafc;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.shortLink {
+    padding: 16px;
+}
+.shortLinkInput {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #56687a;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.toolbarLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-height: 500px;
+    background: #f9fafc;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.toolbarMenu li {
+    list-style: none;
+    padding: 8px 16px;
+    margin-bottom: 4px;
+    background: #dde5ed;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* .toolbarMenu li {
+    list-style: none;
+    padding: 8px;
+} */
+
+.toolbarRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #f9fafc;
+}
+
+.phone {
+    width: 320px;
+    min-height: 650px;
+    border: 5px solid #d3d9e4;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fringe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 140px;
+    height: 26px;
+    border-radius: 0 0 20px 20px;
+    background-color: #d3d9e4;
+    z-index: 10;
+}
+.fringe:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -14px;
+    margin: auto;
+    width: 14px;
+    height: 10px;
+    /* background-color: #d3d9e4; */
+}
+.fringe:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -14px;
+    margin: auto;
+    width: 14px;
+    height: 10px;
+    /* background-color: #d3d9e4; */
+}
+
+.phoneContent {
+    width: 100%;
+    height: 100%;
+}
+
+.tools {
+    flex: 1;
+}

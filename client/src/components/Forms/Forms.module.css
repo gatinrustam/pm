@@ -1,8 +1,3 @@
-.mainWrap {
-    display: flex;
-    background: #f9fafc;
-}
-
 .content {
     background: #ffffff;
     width: calc(100% - 32px);

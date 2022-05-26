@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next';
 import EmptyData from "../common/EmptyData/EmptyData";
 import Header from "../Header/Header";
 
-import s from './Analytics.module.css';
+import s from './Buttons.module.css';
 
-export default function Analytics() {
+export default function Buttons() {
     const { t } = useTranslation();
 
     const analytic = false;
@@ -16,7 +16,7 @@ export default function Analytics() {
 
     return (
         <main className={s.analytics}>
-            <Header title={t('dashboard.analytics.menu.title')} />
+            <Header title={t('dashboard.buttons.menu.title')} />
 
             <div className={s.content}>
                 dfghgf

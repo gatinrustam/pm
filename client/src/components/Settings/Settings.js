@@ -8,12 +8,12 @@ export default function Settings() {
     const { t } = useTranslation();
 
     return (
-        <div className={s.settings}>
+        <main className={s.settings}>
             <Header title={t('dashboard.settings.menu.title')} />
 
             <div className={s.content}>
                 dfghgf
             </div>
-        </div>
+        </main>
     )
 };

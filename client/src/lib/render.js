@@ -49,7 +49,8 @@ const renderModal = (element) => {
     parent.appendChild(renderElement);
 }
 
-const renderSelect = (element) => {
+// render select elements
+export default function renderSelect(element){
     const parent = document.createElement(elementType.div);
     parent.classList.add(`${pointmaticData.parentClass}__row`);
     appContent.appendChild(parent);
@@ -59,7 +60,8 @@ const renderSelect = (element) => {
 
 }
 
-const renderElement = (element) => {
+// render all elements
+export default function renderElement(element){
     // parent generate
     const parent = document.createElement('div');
     parent.classList.add(`${pointmaticData.parentClass}__row`);

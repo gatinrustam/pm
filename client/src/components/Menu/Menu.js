@@ -11,6 +11,7 @@ import FormBuilder from '../../img/icons/form-builder.svg';
 import Pages from '../../img/icons/pages.svg';
 import Analytics from '../../img/icons/analytics.svg';
 import Settings from '../../img/icons/settings.svg';
+import Button from '../../img/icons/button.svg';
 
 
 export default function Menu(){
@@ -39,6 +40,12 @@ export default function Menu(){
                     <Link to={Path.pages} className={s.menuLink}>
                         <span className={s.itemTitle}>{t('dashboard.pages.menu.title')}</span>
                         <img src={Pages} alt="" />
+                    </Link>
+                </li>
+                <li className={s.menuItem}>
+                    <Link to={Path.buttons} className={s.menuLink}>
+                        <span className={s.itemTitle}>{t('dashboard.buttons.menu.title')}</span>
+                        <img src={Button} alt="" />
                     </Link>
                 </li>
                 <li className={s.menuItem}>

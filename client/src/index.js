@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
+import { useRoutes } from "./routes";
 import './i18n';
-import App from './App';
+import "./index.css";
 
-const rootElement = document.getElementById("root");
+const routes = useRoutes(false);
 
 ReactDOM.render(
 	<BrowserRouter>
-		<App />
+		{routes}
 	</BrowserRouter>,
-	rootElement
+	document.getElementById("app")
 );

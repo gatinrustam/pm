@@ -42,6 +42,8 @@ const resources = {
 
       "dashboard.pages.menu.title": "Pages",
 
+      "dashboard.buttons.menu.title": "Buttons",
+
       "dashboard.analytics.menu.title": "Analytics",
       "dashboard.settings.menu.title": "Settings",
 
@@ -89,6 +91,8 @@ const resources = {
       "dashboard.forms.note.desc": "Создавать формы удобно и просто, а их использование еще проще. После создания формы скопируйте код и вставьте его куда нужно. Статистика по использованию формы появится как только кто-то повзаимодействует с формой.",
 
       "dashboard.pages.menu.title": "Страницы",
+
+      "dashboard.buttons.menu.title": "Кнопки",
 
       "dashboard.analytics.menu.title": "Аналитика",
       "dashboard.settings.menu.title": "Настройки",

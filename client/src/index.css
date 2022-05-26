@@ -1,0 +1,109 @@
+@import './common/index.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    /* color: var(--main-text-color); */
+    color: #2A2F35;
+    background: #f9fafc;
+}
+
+a {
+    transition: background 300ms ease-in-out;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+main {
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 640px) {
+    .app {
+        flex-direction: column;
+        height: initial;
+    }
+}
+
+/* .mainContent {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+.pm-header {
+    padding: 400px 16px 16px;
+    background: #f9fafc;
+    background-image: url("./img/images/demo.jpg");
+    background-size: cover;
+}
+
+.pm-avatar {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pm-avatar__image {
+    width: 150px;
+    height: 150px;
+    background: #f9fafc;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.pm-block {
+    padding: 16px;
+}
+
+.pm-button-wrap {
+    padding: 0 16px;
+    margin-bottom: 12px;
+}
+.pm-button-wrap:last-child {
+    margin-bottom: 0;
+}
+.pm-button {
+    display: block;
+    font-size: 14px;
+    padding: 12px 16px;
+    width: 100%;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.pm-button:hover {
+    background: #3e9641;
+}
+
+
+.pm-footer {
+    padding: 16px;
+    color: #56687a;
+    font-size: 12px;
+}

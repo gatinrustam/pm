@@ -9,7 +9,7 @@ import Header from "../Header/Header";
 import Instruction from "../common/Instruction/Instruction";
 
 import s from './Forms.module.css';
-import CreateForm from "./components/CreateForm/CreateForm.js";
+import FormList from "./components/FormList/FormList.js";
 
 export default function Forms() {
     const { t } = useTranslation();
@@ -35,12 +35,6 @@ export default function Forms() {
                 size="small"
                 to={Path.formCreate}
             />
-            <Button
-                text={t('dashboard.forms.menu.all_forms')}
-                size="small"
-                border="outline"
-                to={Path.formAll}
-            />
         </div>
     )
 
@@ -53,7 +47,7 @@ export default function Forms() {
 
             <div className={s.content}>
                 <Instruction instruction={instructions} />
-                <CreateForm />
+                <FormList />
                 <Outlet />
             </div>
         </main>

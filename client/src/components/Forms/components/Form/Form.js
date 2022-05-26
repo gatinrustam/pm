@@ -42,17 +42,18 @@ export default function Form({ order, form }){
                         height={30}
                         data={data}
                     >
-                        <Tooltip />
+                        {/* <Tooltip /> */}
                         <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
                     </AreaChart>
                 </div>
-                <div className={s.createdAt}>
+                {/* <div className={s.createdAt}>
                     {created_at}
-                </div>
+                </div> */}
                 <div className={cn(s.arrow, { [s.arrowRotate]: showDetails })}>
                     <Icon icon={DropdownArrow} width="24px" height="24px" />
                 </div>
             </div>
+
             {showDetails && (
                 <div className={s.details}>
                     details

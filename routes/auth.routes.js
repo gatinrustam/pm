@@ -21,7 +21,7 @@ router.post(
             if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
-                    message: 'Некорректные даннные при регистрации'
+                    message: 'Некорректные даннные при регистрации',
                 });
             }
 
@@ -41,7 +41,7 @@ router.post(
 
         } catch (e) {
             console.log(e);
-            res.status(500).json({ message: "aaaa Что-то пошло не так" });
+            res.status(500).json({ message: "Что-то пошло не так" });
         }
 });
 
